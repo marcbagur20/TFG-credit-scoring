@@ -1,0 +1,20 @@
+# Datos (no se versionan por tamaño)
+*.csv
+!data/README.md
+data/*.zip
+
+# Salidas locales
+outputs/
+*.png
+!figures/*.png
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Sistema
+.DS_Store
+Thumbs.db
